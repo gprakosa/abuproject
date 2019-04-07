@@ -1,11 +1,88 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <link href="//db.onlinewebfonts.com/c/6daaeacf369f5c15f3308f379ab05b77?family=Futura+LT" rel="stylesheet" type="text/css">
+
+    <link href="//db.onlinewebfonts.com/c/c71f4acd476b10eb89a1533f3c8cace1?family=Futura" rel="stylesheet" type="text/css"/>
+
+        <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+      body {
+        font-family: "Futura LT" !important;
+        letter-spacing: 0.2rem;
+      }
+      h1.ch1 {
+        font-family: "Futura" !important;
+        letter-spacing: 1.5rem;
+        font-size: 5.5rem;
+        font-weight: bold;
+        padding-top: 2rem
+      }
+      h1.ch2 {
+        font-family: "Futura LT" !important;
+        letter-spacing: 1.5rem;
+        font-size: 5rem;
+        font-weight: bold;
+        padding-bottom: 2rem
+      }
+      .cover-container {
+        max-width: 65rem !important;
+      }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.3/examples/cover/cover.css" rel="stylesheet">
   </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+      <div class="inner">
+        <h3 class="masthead-brand"><%= brand %>.</h3>
+        <nav class="nav nav-masthead justify-content-center">
+          <!--a class="nav-link active" href="#">Home</a>
+          <a class="nav-link" href="#">Features</a-->
+          <a class="nav-link active" href="mailto:abuproject.id@gmail.com?subject=#Inquiry">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+  <main role="main" class="inner cover">
+    <p class="lead"><%= person1 %> X <%= person2 %></p>
+    <h1 class="cover-heading ch1">ABU</h1>
+    <h1 class="cover-heading ch2">PROJECT</h1>
+    <!--p class="lead"><%= message %></p-->
+    <p class="lead">
+      <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+    </p>
+  </main>
+
+  <footer class="mastfoot mt-auto">
+    <div class="inner">
+      <!--p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p-->
+      <p>Est. 2019 by <%= title %></p>
+    </div>
+  </footer>
+</div>
+</body>
 </html>
