@@ -35,6 +35,9 @@
       .cover-container {
         max-width: 65rem !important;
       }
+      a.no-underline {
+        text-decoration: none !important
+      }
 
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -50,6 +53,14 @@
           font-size: 3.5rem;
         }
       }
+
+      @media (max-width: 575.98px) {
+        .masthead-brand, h1.ch1, h1.ch2 {font-size: larger}
+        .lead {font-size: x-small}
+        .mastfoot {font-size: xx-small}
+        a.nav-link {font-size: xx-small}
+      }
+
     </style>
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.3/examples/cover/cover.css" rel="stylesheet">
@@ -58,7 +69,7 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
       <div class="inner">
-        <h3 class="masthead-brand"><%= brand %>.</h3>
+        <h3 class="masthead-brand"><a class="no-underline" href=""><%= brand %>.</a></h3>
         <nav class="nav nav-masthead justify-content-center">
           <!--a class="nav-link active" href="#">Home</a>
           <a class="nav-link" href="#">Features</a-->
