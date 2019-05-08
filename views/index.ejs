@@ -1,99 +1,49 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<html>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title><%= title %></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Armata">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
 
-    <link href="//db.onlinewebfonts.com/c/6daaeacf369f5c15f3308f379ab05b77?family=Futura+LT" rel="stylesheet" type="text/css">
-
-    <link href="//db.onlinewebfonts.com/c/c71f4acd476b10eb89a1533f3c8cace1?family=Futura" rel="stylesheet" type="text/css"/>
-
-        <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <style>
-      body {
-        font-family: "Futura LT" !important;
-        letter-spacing: 0.2rem;
-      }
-      h1.ch1 {
-        font-family: "Futura" !important;
-        letter-spacing: 1.5rem;
-        font-size: 5.5rem;
-        font-weight: bold;
-        padding-top: 2rem
-      }
-      h1.ch2 {
-        font-family: "Futura LT" !important;
-        letter-spacing: 1.5rem;
-        font-size: 5rem;
-        font-weight: bold;
-        padding-bottom: 2rem
-      }
-      .cover-container {
-        max-width: 65rem !important;
-      }
-      a.no-underline {
-        text-decoration: none !important
-      }
-
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      @media (max-width: 575.98px) {
-        .masthead-brand, h1.ch1, h1.ch2 {font-size: larger}
-        .lead {font-size: x-small}
-        .mastfoot {font-size: xx-small}
-        a.nav-link {font-size: xx-small}
-      }
-
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/docs/4.3/examples/cover/cover.css" rel="stylesheet">
-  </head>
-  <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="masthead mb-auto">
-      <div class="inner">
-        <h3 class="masthead-brand"><a class="no-underline" href=""><%= brand %>.</a></h3>
-        <nav class="nav nav-masthead justify-content-center">
-          <!--a class="nav-link active" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a-->
-          <a class="nav-link active" href="mailto:abuproject.id@gmail.com?subject=#Inquiry">Contact</a>
-        </nav>
-      </div>
-    </header>
-
-  <main role="main" class="inner cover">
-    <p class="lead"><%= person1 %> X <%= person2 %></p>
-    <h1 class="cover-heading ch1">ABU</h1>
-    <h1 class="cover-heading ch2">PROJECT</h1>
-    <!--p class="lead"><%= message %></p-->
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-    </p>
-  </main>
-
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <!--p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p-->
-      <p>Est. 2019 by <%= title %></p>
+<body>
+    <div class="d-flex d-sm-flex d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center" style="height: 100%;background-image: url(&quot;assets/img/thomas-tastet-1056492-unsplash.jpg&quot;);background-position: center;background-size: cover;background-attachment: fixed;"><img class="d-lg-flex" style="position: fixed;left: 30px;top: 25px;" src="assets/img/logoWhite.png" width="60rem">
+        <h1 class="display-4 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center align-items-xl-center"
+            style="/*margin-top: 230px;*/margin: auto;color: #ffffff;/*margin-bottom: 0px;*/"><strong><%= brand %></strong>&nbsp;<%= about %></h1>
     </div>
-  </footer>
-</div>
+    <div class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center highlight-clean"
+        style="/*background-color: rgb(255,255,255,0)!important;*/height: 95%;background: -webkit-linear-gradient(top, rgba(227,227,227,1) 0%,rgba(125,185,232,0) 100%);background: linear-gradient(to bottom, rgba(227,227,227,1) 0%,rgba(125,185,232,0) 100%);">
+        <div class="container">
+            <div class="intro">
+                <h1 class="text-center" data-aos="fade-up" data-aos-duration="950" data-aos-delay="600" style="font-family: 'Alegreya Sans SC', sans-serif;margin-bottom: 0px;">ABOUT US</h1>
+                <p class="text-center" data-aos="fade-up" data-aos-duration="950" data-aos-delay="800" style="font-family: 'Source Sans Pro', sans-serif;margin-top: 20px;margin-bottom: 20px;color: rgb(0,0,0);"><%= message %></p>
+            </div>
+            <div class="buttons">
+                <h6 class="text-center" data-aos="flip-right" data-aos-delay="1800" style="font-size: 14px;color: #82750f;font-family: 'Source Sans Pro', sans-serif;margin-bottom: 0px;padding-top: 0px;margin-top: 0px;bottom: 2%;">ABU SHAKEIL X ABU GHAIDA</h6>
+            </div>
+        </div>
+    </div>
+    <footer class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+        style="height: 5%;background-color: #1f1f1f;">
+        <h6 class="text-center" style="font-family: Amiko, sans-serif;font-size: 10px;margin-bottom: 0px;color: rgb(232,232,232);">Est. 2019 in Batu Kajang by&nbsp;<a href="mailto:abuproject.id@gmail.com" style="color: rgb(232,232,232);"><span style="text-decoration: underline;">ABU</span>.<br></a></h6>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
+
 </html>

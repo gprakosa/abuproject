@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
   	person1: 'ABU SHAKEIL',
   	person2: 'ABU GHAIDA',
   	tagline: 'DELIVER SOLUTION',
-  	message: 'We will help your problem with a solution that meet with the original of syariat Islam, that means our solution is based on Al Quran and Assunnah (Al Hadist). Choose us to be your Ikhtiar and let\'s we tawakal together',
+  	message: 'We will help your problem with a solution that meet with the original of syariat Islam, that means our solution is based on Al Quran and Assunnah. Choose us to be your Ikhtiar and let\'s we tawakal together ',
   });
 });
 
